@@ -4,6 +4,8 @@ function agregarSimboloExclamacion(str) {
   // Por ejemplo: 
   // "hello world" ---> "hello world!"
   // Tu código:
+  let symbol = '!';
+  return str + symbol
 }
 
 module.exports = agregarSimboloExclamacion;
